@@ -3,6 +3,8 @@ body {
   padding: 20px;
   max-width: 1000px;
   margin:auto;
+  border: 5px solid #6f6866;
+  border-radius: 25px;
 }
 
 #navbar {
@@ -49,12 +51,12 @@ body {
 }
 
 .ul li a:link {
-  color: #4BF3FC;
+  color: #ccdad1;
   text-decoration: none;
 }
 
 .ul li a:visited {
-  color: #4BF3FC;
+  color: #ccdad1;
   text-decoration: none;
 }
 
@@ -63,9 +65,6 @@ body {
   color: white;
   text-decoration: underline;
 }
-
-
-
 
 .title {
   color: #38302e;
@@ -85,7 +84,7 @@ h2 {
 h3 {
   color: #38302e;
   font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
+  font-weight: bold;
 }
 
 p {

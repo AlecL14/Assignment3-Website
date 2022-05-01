@@ -23,9 +23,8 @@ table, td, th {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   color: #38302e;
+  text-align: center;
 }
-
-
 
 #navbar {
   position: sticky;
@@ -71,12 +70,12 @@ table, td, th {
 }
 
 .ul li a:link {
-  color: #4BF3FC;
+  color: #ccdad1;
   text-decoration: none;
 }
 
 .ul li a:visited {
-  color: #4BF3FC;
+  color: #ccdad1;
   text-decoration: none;
 }
 
@@ -85,9 +84,6 @@ table, td, th {
   color: white;
   text-decoration: underline;
 }
-
-
-
 
 .title {
   color: #38302e;
@@ -107,7 +103,10 @@ h2 {
 h3 {
   color: #38302e;
   font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
+}
+
+.sectiontitle {
+  font-size: 40px;
 }
 
 p {
