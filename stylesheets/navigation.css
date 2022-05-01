@@ -1,15 +1,44 @@
-body {
-  background-color: #ccdad1;
-  padding: 20px;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+
+/* ------------------------------------ ID's ------------------------------------------ */
+
+
+#navbar {
+  position: sticky;
+  margin: 20px;
 }
 
-table, td, th {
-  border: solid #38302e 5px;
-  text-align: left;
-  border-collapse: collapse;
+#header{
+  padding: 5px;
+  margin: 35px;
+  border-bottom-style: solid;
+  border-bottom-color: #6f6866;
+  border-width: thick;
+  border-radius: 5px;
+}
+
+/* -------------------------- Classes ------------------------------- */
+
+.sectiontitle {
+  font-size: 40px;
+}
+
+.title {
+  color: #38302e;
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.header1 {
+  margin: 20px;
+}
+
+.profilesection {
+  margin: 15px;
+  padding:10px;
+  border: 3px solid;
+  border-radius: 25px;
 }
 
 .tableheader {
@@ -26,30 +55,7 @@ table, td, th {
   text-align: center;
 }
 
-#navbar {
-  position: sticky;
-  margin: 20px;
-}
-
-#header{
-  padding: 5px;
-  margin: 35px;
-  border-bottom-style: solid;
-  border-bottom-color: #6f6866;
-  border-width: thick;
-  border-radius: 5px;
-}
-
-.header1 {
-  margin: 20px;
-}
-
-.profilesection {
-  margin: 15px;
-  padding:10px;
-  border: 3px solid;
-  border-radius: 25px;
-}
+/* ----------------------------------------- List Classes -------------------------------------------- */
 
 .ul {
   list-style-type: none;
@@ -85,12 +91,20 @@ table, td, th {
   text-decoration: underline;
 }
 
-.title {
-  color: #38302e;
-  text-align: center;
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+/*------------------------------------------- elements ----------------------------------------- */
+
+body {
+  background-color: #ccdad1;
+  padding: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, td, th {
+  border: solid #38302e 5px;
+  text-align: left;
+  border-collapse: collapse;
 }
 
 h2 {
@@ -105,8 +119,10 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.sectiontitle {
-  font-size: 40px;
+h5 {
+  color: #38302e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
 
 p {
@@ -115,10 +131,14 @@ p {
   line-height: 1.5;
 }
 
+ol {
+  color: #38302e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 li {
   padding: 5px;
 }
-
 
 ul {
   color: #38302e;
