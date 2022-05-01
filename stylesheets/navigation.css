@@ -6,9 +6,23 @@ body {
   margin-right: auto;
 }
 
-table, th, td {
+table, td, th {
   border: solid #38302e 5px;
-  border-radius: 15px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.tableheader {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #38302e;
+}
+
+.stdpstn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #38302e;
 }
 
 
@@ -108,7 +122,7 @@ li {
 
 
 ul {
-  color: #918ef4;
+  color: #38302e;
   font-family: Arial, Helvetica, sans-serif;
 }
 
