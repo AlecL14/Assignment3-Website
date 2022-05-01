@@ -1,11 +1,25 @@
 body {
-  background-color: #141b41;
+  background-color: #E5C7C1;
   padding: 20px;
   max-width: 1000px;
   max-height: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
+
+table {
+  width: 1150px;
+}
+
+th {
+  text-align: left;
+}
+
+table, th, td {
+  border: 1px solid #000;
+}
+
+
 
 #navbar {
   position: sticky;
