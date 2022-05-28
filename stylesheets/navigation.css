@@ -1,4 +1,9 @@
-
+body {
+  background-color: #ccdad1;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
 /* ------------------------------------ ID's ------------------------------------------ */
 
 
@@ -60,18 +65,15 @@
 .ul {
   list-style-type: none;
   margin: auto;
-  padding: 15px 30px 15px 30px;
-  max-width: 850px;
+  padding: 15px;
+  max-width: 950px;
   background-color: #38302e;
   text-align: center;
-  border: 5px solid #38302e;
-  border-radius: 25px;
 }
 
 .ul li {
   display: inline;
   color: #ccdad1;
-  padding: 18px 16px;
   font-weight: bold;
 }
 
@@ -91,15 +93,40 @@
   text-decoration: underline;
 }
 
+/*------------------------------------------- Dropdown Menu ------------------------------------ */
+
+/* The container <div> - needed to position the dropdown content */
+li.dropdown {
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  z-index: 1;
+  background-color: #38302e ;
+  padding-top: 15px;
+}
+
+.dropdown-content a {
+  display: block;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Links inside the dropdown */
+
+
 /*------------------------------------------- elements ----------------------------------------- */
 
-body {
-  background-color: #ccdad1;
-  padding: 20px;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 table, td, th {
   border: solid #38302e 5px;
