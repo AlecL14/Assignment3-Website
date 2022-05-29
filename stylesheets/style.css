@@ -41,6 +41,28 @@ body {
   font-weight: 700;
 }
 
+.tableheader {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #38302e;
+  text-align: center;
+}
+
+.stdpstn {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #38302e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 700;
+}
+.stdpstn2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #38302e;
+  text-align: left;
+  padding: 15px;
+}
+
 /* ----------------------------------------- List Classes -------------------------------------------- */
 
 ul {
@@ -141,3 +163,11 @@ ul {
   color: #918ef4;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+table, td, th {
+  border: solid #38302e 5px;
+  text-align: left;
+  border-collapse: collapse;
+  margin: auto;
+}
+
