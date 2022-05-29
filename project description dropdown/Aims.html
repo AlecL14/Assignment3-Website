@@ -10,7 +10,7 @@
                 <h1 class="title"> The Heard </h1>
             </div>
             <div id="navbar">
-                <ul>
+                <ul class="ul">
                     <li class="dropdown">
                         <a href="../index.html" target="_self"> Team Profile </a>
                         <div class="dropdown-content">
@@ -28,6 +28,7 @@
                         <div class="dropdown-content">
                             <a href="Overview.html" target="_self"> Overview </a>
                             <a href="Aims.html" target="_self"> Aims </a>
+                            <a href="Plans%20and%20Progress.html" target="_self"> Plans and Progress </a>
                             <a href="Roles.html" target="_self"> Roles </a>
                             <a href="Scopes%20and%20Limits.html" target="_self"> Scope and Limits </a>
                             <a href="Tools%20and%20Technologies_Testing.html" target="_self"> Tools and Technologies/Testing </a>
@@ -37,6 +38,84 @@
                     </li>
                     <li><a href="../Skills%20and%20Jobs.html"target="_self"> Skills and Jobs </a> </li>
                 </ul>
+            </div>
+            <h2> Aims </h2>
+            <div class="profilesection">
+                <h3> Aim </h3>
+                    <p>
+                        The intended outcome for this project is to create a working app and then eventually a computer application.
+                        This is obviously unrealistic considering the time frame given, but the project will be worked on with the
+                        intention of a finished and fully-functioning app. To achieve this, there are a number of components that will
+                        need to be completed. For one, a database will need to be programmed to store the customer’s and the driver’s
+                        information. In addition to this, the database will store the retailers that use our service, as well as their
+                        respective products. An algorithm will also need to be programmed so the drivers can be presented with the
+                        most efficient route to the delivery addresses. These components will make up the app/website - that of which
+                        will need to be designed, prototyped, and then tested.
+                    </p>
+                <h3> Build the Database </h3>
+                    <p>
+                        The database will be developed using either MySQL or SQLiteStudio. These relational database management systems
+                        already have some familiarity to the group. The database will store information relating to the delivery driver,
+                        user, and the stores that are using this service. The information relating to the delivery driver includes their:
+                    </p>
+                    <ul>
+                        <li> Account details (i.e. email address, password, and first and last name) </li>
+                        <li> Delivery history (i.e. delivery routes with their respective date/time) </li>
+                        <li> Distance traveled  - to calculate pay </li>
+                    </ul>
+                    <p>
+                        The information relating to the user includes their:
+                        <ul>
+                            <li> Account details (i.e. email address, password, and first and last name) </li>
+                            <li> Order history (i.e. items ordered, and the delivery routes with their respective date/time) </li>
+                        </ul>
+                    </p>
+                    <p>
+                        The information relating to the store includes the:
+                        <ul>
+                            <li> Stores that use our service </li>
+                            <li> Items that are available via our service (includes all store items, except those that are bulky) </li>
+                        </ul>
+                    </p>
+                    <p>
+                        Whenever a user makes an order, the info on the order will need to be added to a database. Each order is assigned
+                        with a generated QR code. This can be presented by the delivery driver, and scanned at the store of the order -
+                        adding to the efficiency of this service. When scanned, the QR code will display the items included in the order.
+                    </p>
+                <h3> Program an Algorithm </h3>
+                    <p>
+                        This app will require an algorithm serving two purposes - maximizing efficiency and preventing long wait times.
+                        For the sake of profit and efficiency, the driver will be required to deliver to multiple addresses during a
+                        single job. An algorithm that can instantly process the quickest route will minimize delivery times and thus,
+                        will minimize the cost of the delivery - benefiting both the users and delivery drivers, and increasing profit
+                        margins. Other postal services do use these routing algorithms for the same reasons. Another important feature
+                        that is necessary for the algorithm is the ability for it to adapt in real time. The generated route needs to
+                        take into account roadworks, accidents, or any other disruption that could affect travel time. The GPS navigation
+                        app Waze is particularly good at this. Waze picks the fastest route based on traffic conditions such as accidents,
+                        construction, police, road closures, and other disruptions. The mapping model should be based on that of Waze’s.
+                        The driver will need to allow their location at all times so that they can be tracked by the customers. Each job
+                        will be randomly assigned to a driver meaning they have little to no say in where they go on the job. The reason
+                        for this is to prevent customers from waiting for a delivery. We don’t want a customer to have to wait hours because
+                        drivers have just happened to not select that specific customer. As waiting times increase for a customer, the
+                        chances they will be assigned to a driver will increase - thus preventing longer wait times. The algorithm that
+                        generates the shifts for the driver will need to make sure the total time of the entire delivery process does not
+                        exceed the driver's desired shift length.
+                    </p>
+                <h3> Create the app/website </h3>
+                    <p>
+                        It’s obvious that an app of this sort is going to take inspiration from apps for other delivery services. The app
+                        itself needs to be efficient for users to use and incorporate the necessary features for all types of users.
+                        The whole idea is that we provide ‘same-day delivery’ for selected items from selected stores. Customers want
+                        their items fast and part of that is providing a user experience that is easy and efficient to use. The app is
+                        going to take inspiration from other similar apps so that the user has some familiarity with it and its features
+                        - even if they’re using it for the first time. Upon entering the app, we want to make sure the user has all the
+                        necessary features at their fingertips whether they’re a customer, driver, or retailer. Customers will immediately
+                        be presented with some featured stores they can shop from; drivers will be presented with a screen from which they
+                        can immediately begin a shift of a desired time; and retailers will see their store rating and their sales/order data.
+                        At this stage, the group is only focusing on designing an app. However, we plan on creating a website and then eventually
+                        a computer application. This would be a more viable option for a store especially when they’re receiving multiple orders
+                        at one time.
+                    </p>
             </div>
 </body>
 </html>
